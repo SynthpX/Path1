@@ -3,7 +3,7 @@
 ## Rencana Belajar Path/What ?
 
 - [x] Basics
-- [x] [Explore Articles](##Fitur)
+- [x] [Explore Articles](#Fitur)
 - [ ] DOM Manipulation 
 - [ ] Advanced Object and Functions
 - [ ] Simple Project
