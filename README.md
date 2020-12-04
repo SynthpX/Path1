@@ -1646,7 +1646,7 @@ var handler = {
 ## About me
 
 
-[<img alt="tsonevn" src="https://avatars3.githubusercontent.com/u/17448734?v=4&s=117" width="117">](https://github.com/tsonevn)[<img alt="NickIliev" src="https://avatars2.githubusercontent.com/u/18008302?v=4&s=117" width="117">](https://github.com/NickIliev)[<img alt="tjvantoll" src="https://avatars1.githubusercontent.com/u/544280?v=4&s=117" width="117">](https://github.com/tjvantoll)[<img alt="etabakov" src="https://avatars3.githubusercontent.com/u/2611328?v=4&s=117" width="117">](https://github.com/etabakov)[<img alt="ErjanGavalji" src="https://avatars3.githubusercontent.com/u/84975?v=4&s=117" width="117">](https://github.com/ErjanGavalji)[<img alt="ns-bot" src="https://avatars3.githubusercontent.com/u/8101183?v=4&s=117" width="117">](https://github.com/ns-bot)
+[<img alt="SyntpX" src="https://avatars1.githubusercontent.com/u/25601493?s=460&u=c2b4e683d917003c1af50087cd5b5ce10953077a&v=4" width="117">](https://github.com/SynthpX)
 
 
 <!-- Note: The table above get generated with the following commands -->
