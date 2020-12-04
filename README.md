@@ -3,7 +3,7 @@
 ## Rencana Belajar Path/What ?
 
 - [x] Basics
-- [ ] Explore Articles
+- [x] [Explore Articles](##Fitur)
 - [ ] DOM Manipulation 
 - [ ] Advanced Object and Functions
 - [ ] Simple Project
@@ -18,7 +18,7 @@
 ES6 dokumentasi dan contoh 
 
 ## Resources
-- [es6 Features] (https://github.com/lukehoban/es6features)
+- [es6 Features](https://github.com/lukehoban/es6features)
 - [More To Come](More to Come)
 
 ## Fitur
