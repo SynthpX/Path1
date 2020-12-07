@@ -1,17 +1,8 @@
 
 var skor, skorRonde, playerAktif, cube;
 
-skor = [0,0];
-skorRonde = 0;
-playerAktif = 0;
-
+initialD();
 //document.querySelector('#current-' + playerAktif).textContent = cube;
-document.querySelector('.dice').style.display = 'none';
-
-document.getElementById('skor-0').textContent = '0';
-document.getElementById('current--0').textContent = '0';
-document.getElementById('skor-1').textContent = '0';
-document.getElementById('current--1').textContent = '0';
 
 document.querySelector('.btn--roll').addEventListener('click', function(){
     var cube = Math.floor(Math.random() * 6) + 1;
@@ -36,10 +27,34 @@ document.querySelector('.btn--hold').addEventListener('click', function(){
         document.querySelector('.dice').style.display = 'none';
         document.querySelector('.player--' + playerAktif).classList.add('player--winner');
         document.querySelector('.player--' + playerAktif).classList.remove('player--active');
+        document.querySelector('.btn--roll').style.display = 'none';
+        document.querySelector('.btn--hold').style.display = 'none';
     }else{
         playerBerikut();
     }
 });
+
+document.querySelector('.btn--new').addEventListener('click', initialD);
+
+function initialD(){
+    skor = [0,0];
+    skorRonde = 0;
+    playerAktif = 0;
+    document.querySelector('.dice').style.display = 'none';
+    document.getElementById('skor-0').textContent = '0';
+    document.getElementById('current--0').textContent = '0';
+    document.getElementById('skor-1').textContent = '0';
+    document.getElementById('current--1').textContent = '0';
+    document.getElementById('name--0').textContent = 'Player 1';
+    document.getElementById('name--1').textContent = 'Player 2';
+    document.querySelector('.player--0').classList.remove('player--winner');
+    document.querySelector('.player--1').classList.remove('player--winner');
+    document.querySelector('.player--0').classList.remove('player--active');
+    document.querySelector('.player--1').classList.remove('player--active');
+    document.querySelector('.player--0').classList.add('player--active');
+    document.querySelector('.btn--roll').style.display = 'block';
+    document.querySelector('.btn--hold').style.display = 'block';
+}
 
 function playerBerikut(){
         playerAktif === 0 ? playerAktif = 1 : playerAktif = 0;
@@ -52,6 +67,8 @@ function playerBerikut(){
 
         document.querySelector('.dice').style.display = 'none';
 }
+
+
 
 
 
