@@ -23,8 +23,27 @@ document.querySelector('.btn--roll').addEventListener('click', function(){
         skorRonde  += cube;
         document.querySelector('#current--' + playerAktif).textContent = skorRonde;
     }else{
+        playerBerikut();
+    }
+    
+});
+
+document.querySelector('.btn--hold').addEventListener('click', function(){
+    skor[playerAktif] += skorRonde;
+    document.querySelector('#skor-' + playerAktif).textContent = skor[playerAktif];
+    if(skor[playerAktif] >= 20){
+        document.querySelector('#name--' + playerAktif).textContent = 'Pemenang!';
+        document.querySelector('.dice').style.display = 'none';
+        document.querySelector('.player--' + playerAktif).classList.add('player--winner');
+        document.querySelector('.player--' + playerAktif).classList.remove('player--active');
+    }else{
+        playerBerikut();
+    }
+});
+
+function playerBerikut(){
         playerAktif === 0 ? playerAktif = 1 : playerAktif = 0;
-        skoreRonde = 0;
+        skorRonde = 0;
         document.getElementById('current--0').textContent = '0';
         document.getElementById('current--1').textContent = '1';
 
@@ -32,9 +51,7 @@ document.querySelector('.btn--roll').addEventListener('click', function(){
         document.querySelector('.player--1').classList.toggle('player--active');
 
         document.querySelector('.dice').style.display = 'none';
-    }
-    
-});
+}
 
 
 
