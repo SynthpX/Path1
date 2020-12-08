@@ -6,6 +6,25 @@
   box-sizing: inherit;
 }
 
+.skornya-final {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 520px;
+  color: #555;
+  font-size: 18px;
+  font-family: 'Lato';
+  text-align: center;
+  padding: 10px;
+  width: 160px;
+  text-transform: uppercase;
+}
+
+.skornya-final:focus { outline: none; }
+
+#dice-1 {top: 120px;}
+#dice-2 {top: 250px;}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
