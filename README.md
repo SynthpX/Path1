@@ -9,8 +9,8 @@
 - [ ] Simple Project
 - [ ] ES6
 - [ ] Asynchronous , AsyncAwait dan AJAX
-- [ ] Advanced Lv 2
-- [ ] Next
+- [ ] Advanced Project
+- [ ] Next because its only DONE when u decide to STOP.
 
 
 ## Javascript Documentation
