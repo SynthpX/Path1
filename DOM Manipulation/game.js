@@ -13,10 +13,10 @@ document.querySelector('.btn--roll').addEventListener('click', function(){
         document.getElementById('dice-1').style.display = 'block';
         document.getElementById('dice-2').style.display = 'block';
 
-        document.getElementById('dice-2').src = 'img/dice-' + cube1 + '.png';
+        document.getElementById('dice-1').src = 'img/dice-' + cube1 + '.png';
         document.getElementById('dice-2').src = 'img/dice-' + cube2 + '.png';
         if(cube1 !== 1 && cube2 !== 1){
-            skorRonde  += cube1 + cube2;
+            skorRonde = skorRonde + cube1 + cube2;
             document.querySelector('#current--' + playerAktif).textContent = skorRonde;
         }else{
             playerBerikut();
