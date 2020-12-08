@@ -4,7 +4,7 @@
 
 - [x] Basics
 - [x] [Explore Articles](#Fitur)
-- [ ] DOM Manipulation 
+- [x] DOM Manipulation
 - [ ] Advanced Object and Functions
 - [ ] Simple Project
 - [ ] ES6
