@@ -10,7 +10,7 @@
 - [ ] ES6
 - [ ] Asynchronous , AsyncAwait dan AJAX
 - [ ] Advanced Project
-- [ ] Next because its only DONE when u decide to STOP.
+- [ ] Next because Adventure is never finish untill u decide to.
 
 
 ## Javascript Documentation
