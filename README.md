@@ -5,7 +5,7 @@
 - [x] Basics
 - [x] [Explore Articles](#Fitur)
 - [x] DOM Manipulation
-- [ ] Advanced Object and Functions
+- [ ] OOP (Object Oriented Programming)
 - [ ] Simple Project
 - [ ] ES6
 - [ ] Asynchronous , AsyncAwait dan AJAX
