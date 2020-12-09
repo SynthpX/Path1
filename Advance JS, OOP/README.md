@@ -1,17 +1,7 @@
-Object dalam Javascript
+OOP (Object Oriented Programming),Inheritance, Prototype in Javascript
 
 Everything is an object.
 
-Primitives
-- Number
-- Strings
-- Booleans
-- Undefined
-- Null 
-- Arrays
-- Function
-- Objects
 
-OOP (Object Oriented Programming),Inheritance, Prototype in Javascript
+Fungsi juga merupakan object di javascript
 
-- 
