@@ -15,11 +15,17 @@ function pertanyaanInterview(pekerjaan){
         }
     }
 }
+//pemanggilan cara 1
+var pProgrammer = pertanyaanInterview('programmer');
+pProgrammer('Adli');
+pProgrammer('Fardi');
+pProgrammer('Gifar');
 
-var pertanyaanku = pertanyaanInterview('programmer');
-pertanyaanku('Adli');
+var pGuru = pertanyaanInterview('guru');
+pGuru('Iqbal');
+pGuru('David');
 
-var pertanyaanmu = pertanyaanInterview('guru');
-pertanyaanmu('Iqbal');
+//pemanggilan cara 2
+pertanyaanInterview('programmer')('Akabr');
 
 
