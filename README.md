@@ -1,6 +1,8 @@
-# Becoming 0.0001% better at something everyday
+# EH
 
-## Rencana Belajar Path/What ?
+Tujuan dari latihan daily arsip javascript ini adalah untuk merefresh pengetahuan tentang javascript yang diberikan oleh universitas yang kadaluarsa (Kurikulum Indonesia yg terbelakang)
+
+## TODO LIST
 
 - [x] Basics
 - [x] [Explore Articles](#Fitur)
